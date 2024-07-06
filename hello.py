@@ -52,6 +52,9 @@ import array
 my_array = array.array('u')  # 'i' for integer array
 my_array.append('h')
 my_array.append('e')
+my_array.append('l')
+my_array.append('l')
+my_array.append('o')
 
 output = ' '.join(my_array)
 print("Array:", output)
